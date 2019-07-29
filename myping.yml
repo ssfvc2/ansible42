@@ -1,6 +1,10 @@
 ---
 - hosts: all
+  become: yes
   tasks: 
   - name: i am going to ping all hosts(nodes)
     ping:
-  
+  - name: i am  install tree on all nodes
+    apt:
+      name: tree
+      state: present
