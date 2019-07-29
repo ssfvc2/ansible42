@@ -7,4 +7,4 @@
   - name: i am  install tree on all nodes
     apt:
       name: tree
-      state: present
+      state: absent
