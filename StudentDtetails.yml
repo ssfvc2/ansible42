@@ -1,0 +1,13 @@
+---
+- studentDetails:
+   - name: pavan
+     phono: 898989898 
+     address: KPHB
+
+   - name: Saii
+     phono: 8585858585
+     address: KPHB
+
+   - name: kalyani 
+     phono: 45454546545
+     address: KPHB
